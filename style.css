@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto Slab', serif;
     padding: 0;
     padding: 0;
+    width: 100%;
 }
 
 h1 {
@@ -29,7 +30,7 @@ h1 {
 .half-width {
     width: 50%;
     padding-left: 5%;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .half-width img {
@@ -67,17 +68,49 @@ h1 {
 .one-third {
     width: 33%;
     border: 1px solid red;
-    box-shadow: 40px 40px 80px grey;
+    box-shadow: 40px 40px 80px #808080;
+    border-radius: 5%;
+    margin: 15px;
+}
+
+#box {
+    margin: 0 7.5%;
+}
+
+.one-third img {
+    border-radius: 10%;
 }
 
 img {
     width: 100%;
-    border-radius: 5%;
+    /* border-radius: 5%; */
 }
 
 .percent {
     padding-left: 2%;
     padding-right: 2%;
+}
+
+.s-media {
+    box-shadow: 40px 40px 80px grey;
+    border-radius: 5%;
+    margin: 25px;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    border: 1px solid red;
+}
+
+#flex-display {
+    display: flex;
+}
+
+.new-one-third {
+    width: 33%;
+    text-align: center;
+    padding-top: 15px;
+    /* border: 1px solid red; */
+
+    border-radius: 5%;
 }
 
 footer {
